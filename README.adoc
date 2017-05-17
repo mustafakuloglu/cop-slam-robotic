@@ -6,7 +6,7 @@ Kapalı form Çevrimiçi Pose-chain SLAM (COP-SLAM), Lie grup yapısını istifa
 Poz zincirleri, son derece seyrek poz grafiklerin belirli bir türüdür ve doğru görsel odometri ve güvenilir görünüme dayalı döngü algılama gerçekleştiren çağdaş SLAM ön uçlarının bir ürünüdür.  
 Sık döngü algılamanın istenmediği veya mümkün olmadığı büyük ölçekli 3 boyutlu ortamlarda zorlu robot uygulamaları için uygundurlar. Kapalı-Form Online Pose-chain SLAM tarafından elde edilen doğruluğun, en son yenilikçi yinelemeli yöntemlerle karşılaştırılabilir olduğu gösterilmiştir; buna karşılık çözümü hesaplamaya ihtiyaç duyan zaman büyüklükleri kadardır. Bu yeni SLAM tekniği, geniş bir robot uygulamaları ve hesaplama platformları yelpazesiyle ilgilidir. COP-SLAM demo programının harici bağımlılıkları yoktur ve 60 kilometre kullanıma hazır poz-zincir veri kümesiyle birlikte gelir. Dolayısıyla, bu veri kümelerinde COP-SLAM'ın oluşturulması ve çalıştırılması süreci oldukça basittir.
 
-image::Desktop\1.jpg[]
+
 
 = KURULUM ve ÇALIŞTIRMA
 
@@ -17,8 +17,10 @@ image::Desktop\1.jpg[]
 $ cd <dir>/build
 $ cmake ../
 $ make install
-    
 
+image::https://raw.githubusercontent.com/mustafakuloglu/robotik-adoc/master/2.png[]
+image::https://github.com/mustafakuloglu/robotik-adoc/blob/master/1.png?raw=true[]
+image::https://github.com/mustafakuloglu/robotik-adoc/blob/master/3.png?raw=true[]
 Bu, her şeyi kurar ve dizindeki her şeyi yükler: <dir> / bin
 (Bu nedenle süper kullanıcı ayrıcalıkları gerekmez)
 
