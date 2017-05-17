@@ -1,4 +1,4 @@
-= COP SLA 	M
+= COP SLAM
 
 COP-SLAM son derece verimli bir kapalı formda 3-D SLAM yaklaşımıdır, poz zincirlerini çevrimiçi duruma getirir ve g2o ile uyumludur. COP-SLAM demo programı görsel odometri ve görünüş tabanlı döngü algılama ile elde edilen 60 kilometre poz zincir veri kümesiyle birlikte gelir.
 
